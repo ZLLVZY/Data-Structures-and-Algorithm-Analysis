@@ -48,7 +48,7 @@ int main()
     p2=p1;
     if(num%2==0)
     {
-        while(p1->next!=NULL)
+        while(p1->next)
         {
             p1=p1->next->next;
             p2=p2->next;
